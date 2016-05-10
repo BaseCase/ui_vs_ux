@@ -24,7 +24,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /**** todo
- * - [ ] show two random gifs with UI/UX labels
+ * - [x] show two random gifs with UI/UX labels
+ * - [ ] styles to make it look like one of those image macros the kids like
  * - [ ] if URL is just the base, get new random GIFs and update URL to be shareable
  * - [ ] if given a shareable URL, populate GIFs with the given ones
  ******/
