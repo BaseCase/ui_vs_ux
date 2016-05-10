@@ -4,7 +4,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   function insert_random_gif_into(el) {
-    var url = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC";
+    var url = "http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&cb="
+              + Math.floor(Math.random() * (new Date()).getTime())
+
 
     var req = new XMLHttpRequest();
     req.addEventListener('load', handle_it);
